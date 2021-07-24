@@ -42,9 +42,6 @@ public class YoutubeStreamLinkHandlerFactory extends LinkHandlerFactory {
     private static final YoutubeStreamLinkHandlerFactory instance = new YoutubeStreamLinkHandlerFactory();
     private static final List<String> SUBPATHS = Arrays.asList("embed/", "shorts/", "watch/", "v/", "w/");
 
-    private YoutubeStreamLinkHandlerFactory() {
-    }
-
     public static YoutubeStreamLinkHandlerFactory getInstance() {
         return instance;
     }
